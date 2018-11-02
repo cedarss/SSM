@@ -1,0 +1,10 @@
+[2018-10-31 17:32:22] INFO  org.apache.curator.utils.Compatibility 41 <clinit> - Running in ZooKeeper 3.4.x compatibility mode
+[2018-10-31 17:32:22] INFO  org.apache.curator.framework.imps.CuratorFrameworkImpl 290 start - Starting
+[2018-10-31 17:32:22] INFO  org.apache.curator.framework.imps.CuratorFrameworkImpl 332 start - Default schema
+[2018-10-31 17:32:22] INFO  org.apache.curator.framework.state.ConnectionStateManager 237 postState - State change: CONNECTED
+[2018-10-31 17:32:26] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-31 17:32:26] INFO  com.xhkj.upms.swagger.Swagger2Config 29 createRestApi - 开始加载Swagger2...
+[2018-10-31 17:32:26] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 147 start - Context refreshed
+[2018-10-31 17:32:26] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 150 start - Found 1 custom documentation plugin(s)
+[2018-10-31 17:32:26] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2018-10-31 17:32:26] INFO  com.xhkj.sso.shiro.ShiroSessionListener 21 onStart - ShiroSessionListener session {} 被创建:f1fa8da7-38cd-4865-adb2-100f39cd8e38

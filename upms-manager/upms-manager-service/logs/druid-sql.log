@@ -1,0 +1,24 @@
+[2018-10-31 17:32:44] DEBUG 137 statementLog - {conn-10010, pstmt-20000} executed. insert into t_db_log (name, type, url, request_type, request_param
+	, user, ip, ip_info, time, create_date)
+values ('用户注册', 1, '/user/register', 'POST', '{"password":"******","phone":"15000000012","userName":"sxs123123","account":"sxs123123","email":"2@qq.com"}'
+	, '游客', '0:0:0:0:0:0:0:1', '未知', 1109, '2018-10-31 17:32:42.927')
+[2018-10-31 17:32:56] DEBUG 137 statementLog - {conn-10010, pstmt-20000} executed. insert into t_db_log (name, type, url, request_type, request_param
+	, user, ip, ip_info, time, create_date)
+values ('用户注册', 1, '/user/register', 'POST', '{"password":"******","phone":"15000000012","userName":"sxs123123123","account":"sxs123123123","email":"2@qq.com"}'
+	, '游客', '0:0:0:0:0:0:0:1', '未知', 491, '2018-10-31 17:32:56.248')
+[2018-10-31 17:54:41] DEBUG 137 statementLog - {conn-10011, pstmt-20001} executed. insert into t_db_log (name, type, url, request_type, request_param
+	, user, ip, ip_info, time, create_date)
+values ('用户注册', 1, '/user/register', 'POST', '{"password":"******","phone":"15000000013","userName":"sxs1231231231","account":"sxs1231231231","email":"21@qq.com"}'
+	, '游客', '0:0:0:0:0:0:0:1', '未知', 1626, '2018-10-31 17:54:38.832')
+[2018-10-31 18:07:28] DEBUG 137 statementLog - {conn-10012, pstmt-20002} executed. insert into t_db_log (name, type, url, request_type, request_param
+	, user, ip, ip_info, time, create_date)
+values ('用户注册', 1, '/user/register', 'POST', '{"password":"******","phone":"15000000014","userName":"sxs12312312311","account":"sxs12312312311","email":"21@qq.com2"}'
+	, '游客', '0:0:0:0:0:0:0:1', '未知', 1716, '2018-10-31 18:07:25.665')
+[2018-10-31 18:07:54] DEBUG 137 statementLog - {conn-10012, pstmt-20002} executed. insert into t_db_log (name, type, url, request_type, request_param
+	, user, ip, ip_info, time, create_date)
+values ('用户注册', 1, '/user/register', 'POST', '{"password":"******","phone":"15000000015","userName":"sxs123123123112","account":"sxs123123123112","email":"398235382@qq.com"}'
+	, '游客', '0:0:0:0:0:0:0:1', '未知', 373, '2018-10-31 18:07:54.194')
+[2018-10-31 18:10:03] DEBUG 137 statementLog - {conn-10012, pstmt-20002} executed. insert into t_db_log (name, type, url, request_type, request_param
+	, user, ip, ip_info, time, create_date)
+values ('用户注册', 1, '/user/register', 'POST', '{"password":"******","phone":"15000000015","userName":"sxs123123123112","account":"sxs123123123112","email":"398235382@qq.com"}'
+	, '游客', '0:0:0:0:0:0:0:1', '未知', 1030, '2018-10-31 18:10:02.801')

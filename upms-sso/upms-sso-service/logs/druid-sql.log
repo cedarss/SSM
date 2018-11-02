@@ -1,0 +1,96 @@
+[2018-10-31 17:32:43] DEBUG 137 statementLog - {conn-10010, pstmt-20000} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where user_name = 'sxs123123'
+[2018-10-31 17:32:56] DEBUG 137 statementLog - {conn-10010, pstmt-20000} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where user_name = 'sxs123123123'
+[2018-10-31 17:32:56] DEBUG 137 statementLog - {conn-10010, pstmt-20001} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where account = 'sxs123123123'
+[2018-10-31 17:32:56] DEBUG 137 statementLog - {conn-10010, pstmt-20002} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where phone = '15000000012'
+[2018-10-31 17:32:56] DEBUG 137 statementLog - {conn-10010, pstmt-20003} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where email = '2@qq.com'
+[2018-10-31 17:32:56] DEBUG 137 statementLog - {conn-10010, pstmt-20004} executed. insert into t_user (user_name, account, password, password_random, email
+	, phone, create_time, is_enable)
+values ('sxs123123123', 'sxs123123123', '61192d4fe0c40719fdf52f6061706498', '0.07666390170625859', '2@qq.com'
+	, '15000000012', '2018-10-31 17:32:56.329', 1)
+[2018-10-31 17:54:39] DEBUG 137 statementLog - {conn-10011, pstmt-20005} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where user_name = 'sxs1231231231'
+[2018-10-31 17:54:39] DEBUG 137 statementLog - {conn-10011, pstmt-20006} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where account = 'sxs1231231231'
+[2018-10-31 17:54:39] DEBUG 137 statementLog - {conn-10011, pstmt-20007} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where phone = '15000000013'
+[2018-10-31 17:54:40] DEBUG 137 statementLog - {conn-10011, pstmt-20008} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where email = '21@qq.com'
+[2018-10-31 17:54:40] DEBUG 137 statementLog - {conn-10011, pstmt-20009} executed. insert into t_user (user_name, account, password, password_random, email
+	, phone, create_time, is_enable)
+values ('sxs1231231231', 'sxs1231231231', 'c54862d294820fac2f118d6dd4a881f4', '0.8813161297080269', '21@qq.com'
+	, '15000000013', '2018-10-31 17:54:40.014', 1)
+[2018-10-31 18:07:26] DEBUG 137 statementLog - {conn-10012, pstmt-20010} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where user_name = 'sxs12312312311'
+[2018-10-31 18:07:26] DEBUG 137 statementLog - {conn-10012, pstmt-20011} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where account = 'sxs12312312311'
+[2018-10-31 18:07:26] DEBUG 137 statementLog - {conn-10012, pstmt-20012} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where phone = '15000000014'
+[2018-10-31 18:07:26] DEBUG 137 statementLog - {conn-10012, pstmt-20013} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where email = '21@qq.com2'
+[2018-10-31 18:07:26] DEBUG 137 statementLog - {conn-10012, pstmt-20014} executed. insert into t_user (user_name, account, password, password_random, email
+	, phone, create_time, is_enable)
+values ('sxs12312312311', 'sxs12312312311', '662b0f985766893afdebcb3f27fecbcf', '0.7530156008909626', '21@qq.com2'
+	, '15000000014', '2018-10-31 18:07:26.851', 1)
+[2018-10-31 18:07:54] DEBUG 137 statementLog - {conn-10012, pstmt-20010} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where user_name = 'sxs123123123112'
+[2018-10-31 18:07:54] DEBUG 137 statementLog - {conn-10012, pstmt-20011} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where account = 'sxs123123123112'
+[2018-10-31 18:07:54] DEBUG 137 statementLog - {conn-10012, pstmt-20012} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where phone = '15000000015'
+[2018-10-31 18:07:54] DEBUG 137 statementLog - {conn-10012, pstmt-20013} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where email = '398235382@qq.com'
+[2018-10-31 18:10:03] DEBUG 137 statementLog - {conn-10010, pstmt-20000} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where user_name = 'sxs123123123112'
+[2018-10-31 18:10:03] DEBUG 137 statementLog - {conn-10010, pstmt-20001} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where account = 'sxs123123123112'
+[2018-10-31 18:10:03] DEBUG 137 statementLog - {conn-10010, pstmt-20002} executed. select id, user_name, account, password, password_random
+	, email, phone, create_time, is_enable
+from t_user
+where phone = '15000000015'
+[2018-10-31 18:10:03] DEBUG 137 statementLog - {conn-10010, pstmt-20003} executed. insert into t_user (user_name, account, password, password_random, email
+	, phone, create_time, is_enable)
+values ('sxs123123123112', 'sxs123123123112', '52a6ed49f670810e9d70834719c5c218', '0.11889583732411868', '398235382@qq.com'
+	, '15000000015', '2018-10-31 18:10:03.237', 1)

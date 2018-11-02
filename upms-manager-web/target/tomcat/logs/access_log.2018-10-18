@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:28:09 +0800] "GET / HTTP/1.1" 302 - http-bio-8888-exec-1 6587
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:28:09 +0800] "GET /login.html;JSESSIONID=b60d42b2-0d19-4914-a44b-03272973ba8b HTTP/1.1" 200 974 http-bio-8888-exec-3 26
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:28:10 +0800] "GET /favicon.ico HTTP/1.1" 302 - http-bio-8888-exec-4 6
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:28:10 +0800] "GET /login.html HTTP/1.1" 304 - http-bio-8888-exec-5 7
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:28:19 +0800] "GET /register.html HTTP/1.1" 304 - http-bio-8888-exec-6 9
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:28:19 +0800] "GET /favicon.ico HTTP/1.1" 302 - http-bio-8888-exec-8 4
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:29:44 +0800] "GET / HTTP/1.1" 200 315 http-bio-8888-exec-2 2281
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:29:44 +0800] "GET / HTTP/1.1" 200 315 http-bio-8888-exec-1 6209
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:29:57 +0800] "GET / HTTP/1.1" 302 - http-bio-8888-exec-4 18
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:29:57 +0800] "GET /login.html;JSESSIONID=eac9c8c3-b326-45e4-a602-dda7e5359dc1 HTTP/1.1" 200 974 http-bio-8888-exec-6 7
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:30:00 +0800] "POST /user/login HTTP/1.1" 500 26765 http-bio-8888-exec-7 1169
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:18:31:10 +0800] "POST /user/register HTTP/1.1" 500 26332 http-bio-8888-exec-8 374

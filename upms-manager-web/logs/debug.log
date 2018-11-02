@@ -1,0 +1,281 @@
+[2018-10-31 17:32:22] DEBUG org.apache.curator.CuratorZookeeperClient 207 start - Starting
+[2018-10-31 17:32:22] DEBUG org.apache.curator.ConnectionState 109 start - Starting
+[2018-10-31 17:32:22] DEBUG org.apache.curator.ConnectionState 194 reset - reset
+[2018-10-31 17:32:22] DEBUG org.apache.curator.ConnectionState 174 process - Negotiated session timeout: 40000
+[2018-10-31 17:32:22] DEBUG org.apache.curator.framework.imps.CuratorFrameworkImpl 1004 unSleepBackgroundOperations - Clearing sleep for 0 operations
+[2018-10-31 17:32:23] DEBUG com.xhkj.sso.shiro.RedisCacheManager 28 getCache - 获取名称为: com.xhkj.sso.shiro.CustomRealm.authorizationCache 的RedisCache实例
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 54 initHandlerMethods - initialising the handler methods
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 76 collectFromReturnType - Adding return parameter of type Lcom/xhkj/common/pojo/Result<Ljava/lang/Object;>;
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 83 collectParameters - Reading parameters models for handlerMethod |addUser|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 94 collectParameters - Finished reading parameters models for handlerMethod |addUser|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider 84 collectApiResponses - Reading parameters models for handlerMethod |addUser|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader 69 read - Generated parameter model id: Result«object», name: Result«object», schema: {} models
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader 87 mergeModelMap - Adding a new model with key Result«object»
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 79 expand - Expanding parameter type: com.xhkj.upms.entity.User
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2a1ec30f
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2a1ec30f, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@68c47991
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@68c47991, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@341ec93d
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@341ec93d, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6573bbce
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6573bbce, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@1ffab864
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@1ffab864, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@54b942fb
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@54b942fb, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@16ac3e70
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@16ac3e70, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6e795aa0
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6e795aa0, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 145 simpleFields - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@248af693
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander 148 simpleFields - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@248af693, with type: 
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: Result«object»
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 99 apply - Authorization count 0 for method addUser
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:Result«object»
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method addUser
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 76 collectFromReturnType - Adding return parameter of type Lcom/xhkj/common/pojo/Result<Ljava/lang/Object;>;
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 83 collectParameters - Reading parameters models for handlerMethod |login|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 94 collectParameters - Finished reading parameters models for handlerMethod |login|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider 84 collectApiResponses - Reading parameters models for handlerMethod |login|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader 69 read - Generated parameter model id: Result«object», name: Result«object», schema: {} models
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: Result«object»
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 99 apply - Authorization count 0 for method login
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:Result«object»
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method login
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 76 collectFromReturnType - Adding return parameter of type V
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 83 collectParameters - Reading parameters models for handlerMethod |testMq|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 94 collectParameters - Finished reading parameters models for handlerMethod |testMq|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider 84 collectApiResponses - Reading parameters models for handlerMethod |testMq|
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader 74 read - Did not find any parameter models for void
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: null
+[2018-10-31 17:32:26] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 99 apply - Authorization count 0 for method testMq
+[2018-10-31 17:32:26] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 312 getHandlerInternal - Looking up handler method for path /login.html
+[2018-10-31 17:32:26] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 108 lookupHandlerMethod - looking up handler for path: /login.html
+[2018-10-31 17:32:26] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 322 getHandlerInternal - Did not find handler method for [/login.html]
+[2018-10-31 17:32:42] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 312 getHandlerInternal - Looking up handler method for path /user/register
+[2018-10-31 17:32:42] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 108 lookupHandlerMethod - looking up handler for path: /user/register
+[2018-10-31 17:32:42] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 322 getHandlerInternal - Did not find handler method for [/user/register]
+[2018-10-31 17:32:43] DEBUG cn.hutool.log.GlobalLogFactory 31 get - Use [Slf4j] Logger As Default.
+[2018-10-31 17:32:43] DEBUG org.apache.http.client.protocol.RequestAddCookies 123 process - CookieSpec selected: default
+[2018-10-31 17:32:43] DEBUG org.apache.http.client.protocol.RequestAuthCache 77 process - Auth cache not set in the context
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.execchain.MainClientExec 235 execute - Opening connection {}->http://apicloud.mob.com:80
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.execchain.MainClientExec 256 execute - Executing request GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.execchain.MainClientExec 261 execute - Target auth state: UNCHALLENGED
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.execchain.MainClientExec 267 execute - Proxy auth state: UNCHALLENGED
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 133 onRequestSubmitted - http-outgoing-0 >> GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-0 >> Host: apicloud.mob.com
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-0 >> Connection: Keep-Alive
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1[\r][\n]"
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36[\r][\n]"
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "Host: apicloud.mob.com[\r][\n]"
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-10-31 17:32:43] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Server: nginx/1.8.0[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Date: Wed, 31 Oct 2018 09:32:44 GMT[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Content-Length: 42[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Expires: 0[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "[\r][\n]"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-0 << "{"msg":"IP[0xe5][0x9c][0xb0][0xe5][0x9d][0x80][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","retCode":"20404"}"
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 122 onResponseReceived - http-outgoing-0 << HTTP/1.1 200 OK
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Server: nginx/1.8.0
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Date: Wed, 31 Oct 2018 09:32:44 GMT
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Content-Length: 42
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Connection: keep-alive
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Expires: 0
+[2018-10-31 17:32:44] DEBUG org.apache.http.impl.execchain.MainClientExec 285 execute - Connection can be kept alive indefinitely
+[2018-10-31 17:32:56] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 312 getHandlerInternal - Looking up handler method for path /user/register
+[2018-10-31 17:32:56] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 108 lookupHandlerMethod - looking up handler for path: /user/register
+[2018-10-31 17:32:56] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 322 getHandlerInternal - Did not find handler method for [/user/register]
+[2018-10-31 17:32:56] DEBUG org.apache.http.client.protocol.RequestAddCookies 123 process - CookieSpec selected: default
+[2018-10-31 17:32:56] DEBUG org.apache.http.client.protocol.RequestAuthCache 77 process - Auth cache not set in the context
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.execchain.MainClientExec 256 execute - Executing request GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.execchain.MainClientExec 261 execute - Target auth state: UNCHALLENGED
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.execchain.MainClientExec 267 execute - Proxy auth state: UNCHALLENGED
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 133 onRequestSubmitted - http-outgoing-0 >> GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-0 >> Host: apicloud.mob.com
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-0 >> Connection: Keep-Alive
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "Host: apicloud.mob.com[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 >> "[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Server: nginx/1.8.0[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Date: Wed, 31 Oct 2018 09:32:57 GMT[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Content-Length: 42[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "Expires: 0[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-0 << "[\r][\n]"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-0 << "{"msg":"IP[0xe5][0x9c][0xb0][0xe5][0x9d][0x80][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","retCode":"20404"}"
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 122 onResponseReceived - http-outgoing-0 << HTTP/1.1 200 OK
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Server: nginx/1.8.0
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Date: Wed, 31 Oct 2018 09:32:57 GMT
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Content-Length: 42
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Connection: keep-alive
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-0 << Expires: 0
+[2018-10-31 17:32:56] DEBUG org.apache.http.impl.execchain.MainClientExec 285 execute - Connection can be kept alive indefinitely
+[2018-10-31 17:54:38] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 312 getHandlerInternal - Looking up handler method for path /user/register
+[2018-10-31 17:54:38] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 108 lookupHandlerMethod - looking up handler for path: /user/register
+[2018-10-31 17:54:38] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 322 getHandlerInternal - Did not find handler method for [/user/register]
+[2018-10-31 17:54:40] DEBUG org.apache.http.client.protocol.RequestAddCookies 123 process - CookieSpec selected: default
+[2018-10-31 17:54:40] DEBUG org.apache.http.client.protocol.RequestAuthCache 77 process - Auth cache not set in the context
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-0 << "[read] I/O error: Connection reset"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.execchain.MainClientExec 235 execute - Opening connection {}->http://apicloud.mob.com:80
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.execchain.MainClientExec 256 execute - Executing request GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.execchain.MainClientExec 261 execute - Target auth state: UNCHALLENGED
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.execchain.MainClientExec 267 execute - Proxy auth state: UNCHALLENGED
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 133 onRequestSubmitted - http-outgoing-1 >> GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-1 >> User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-1 >> Host: apicloud.mob.com
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-1 >> Connection: Keep-Alive
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 >> "GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 >> "User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 >> "Host: apicloud.mob.com[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 >> "[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 << "Server: nginx/1.8.0[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 << "Date: Wed, 31 Oct 2018 09:54:40 GMT[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 << "Content-Length: 42[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 << "Expires: 0[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-1 << "[\r][\n]"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-1 << "{"msg":"IP[0xe5][0x9c][0xb0][0xe5][0x9d][0x80][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","retCode":"20404"}"
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 122 onResponseReceived - http-outgoing-1 << HTTP/1.1 200 OK
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-1 << Server: nginx/1.8.0
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-1 << Date: Wed, 31 Oct 2018 09:54:40 GMT
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-1 << Content-Type: text/plain; charset=utf-8
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-1 << Content-Length: 42
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-1 << Connection: keep-alive
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-1 << Expires: 0
+[2018-10-31 17:54:40] DEBUG org.apache.http.impl.execchain.MainClientExec 285 execute - Connection can be kept alive indefinitely
+[2018-10-31 18:07:25] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 312 getHandlerInternal - Looking up handler method for path /user/register
+[2018-10-31 18:07:25] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 108 lookupHandlerMethod - looking up handler for path: /user/register
+[2018-10-31 18:07:25] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 322 getHandlerInternal - Did not find handler method for [/user/register]
+[2018-10-31 18:07:27] DEBUG org.apache.http.client.protocol.RequestAddCookies 123 process - CookieSpec selected: default
+[2018-10-31 18:07:27] DEBUG org.apache.http.client.protocol.RequestAuthCache 77 process - Auth cache not set in the context
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-1 << "[read] I/O error: Connection reset"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.execchain.MainClientExec 235 execute - Opening connection {}->http://apicloud.mob.com:80
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.execchain.MainClientExec 256 execute - Executing request GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.execchain.MainClientExec 261 execute - Target auth state: UNCHALLENGED
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.execchain.MainClientExec 267 execute - Proxy auth state: UNCHALLENGED
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 133 onRequestSubmitted - http-outgoing-2 >> GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-2 >> User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-2 >> Host: apicloud.mob.com
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-2 >> Connection: Keep-Alive
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "Host: apicloud.mob.com[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Server: nginx/1.8.0[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Date: Wed, 31 Oct 2018 10:07:27 GMT[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Content-Length: 42[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Expires: 0[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "[\r][\n]"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-2 << "{"msg":"IP[0xe5][0x9c][0xb0][0xe5][0x9d][0x80][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","retCode":"20404"}"
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 122 onResponseReceived - http-outgoing-2 << HTTP/1.1 200 OK
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Server: nginx/1.8.0
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Date: Wed, 31 Oct 2018 10:07:27 GMT
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Content-Type: text/plain; charset=utf-8
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Content-Length: 42
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Connection: keep-alive
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Expires: 0
+[2018-10-31 18:07:27] DEBUG org.apache.http.impl.execchain.MainClientExec 285 execute - Connection can be kept alive indefinitely
+[2018-10-31 18:07:54] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 312 getHandlerInternal - Looking up handler method for path /user/register
+[2018-10-31 18:07:54] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 108 lookupHandlerMethod - looking up handler for path: /user/register
+[2018-10-31 18:07:54] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 322 getHandlerInternal - Did not find handler method for [/user/register]
+[2018-10-31 18:07:54] DEBUG org.apache.http.client.protocol.RequestAddCookies 123 process - CookieSpec selected: default
+[2018-10-31 18:07:54] DEBUG org.apache.http.client.protocol.RequestAuthCache 77 process - Auth cache not set in the context
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-2 << "[read] I/O error: Read timed out"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.execchain.MainClientExec 256 execute - Executing request GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.execchain.MainClientExec 261 execute - Target auth state: UNCHALLENGED
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.execchain.MainClientExec 267 execute - Proxy auth state: UNCHALLENGED
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 133 onRequestSubmitted - http-outgoing-2 >> GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-2 >> User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-2 >> Host: apicloud.mob.com
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-2 >> Connection: Keep-Alive
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "Host: apicloud.mob.com[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 >> "[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Server: nginx/1.8.0[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Date: Wed, 31 Oct 2018 10:07:55 GMT[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Content-Length: 42[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "Expires: 0[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-2 << "[\r][\n]"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-2 << "{"msg":"IP[0xe5][0x9c][0xb0][0xe5][0x9d][0x80][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","retCode":"20404"}"
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 122 onResponseReceived - http-outgoing-2 << HTTP/1.1 200 OK
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Server: nginx/1.8.0
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Date: Wed, 31 Oct 2018 10:07:55 GMT
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Content-Type: text/plain; charset=utf-8
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Content-Length: 42
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Connection: keep-alive
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-2 << Expires: 0
+[2018-10-31 18:07:54] DEBUG org.apache.http.impl.execchain.MainClientExec 285 execute - Connection can be kept alive indefinitely
+[2018-10-31 18:10:02] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 312 getHandlerInternal - Looking up handler method for path /user/register
+[2018-10-31 18:10:02] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 108 lookupHandlerMethod - looking up handler for path: /user/register
+[2018-10-31 18:10:02] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping 322 getHandlerInternal - Did not find handler method for [/user/register]
+[2018-10-31 18:10:03] DEBUG org.apache.http.client.protocol.RequestAddCookies 123 process - CookieSpec selected: default
+[2018-10-31 18:10:03] DEBUG org.apache.http.client.protocol.RequestAuthCache 77 process - Auth cache not set in the context
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-2 << "[read] I/O error: Connection reset"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.execchain.MainClientExec 235 execute - Opening connection {}->http://apicloud.mob.com:80
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.execchain.MainClientExec 256 execute - Executing request GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.execchain.MainClientExec 261 execute - Target auth state: UNCHALLENGED
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.execchain.MainClientExec 267 execute - Proxy auth state: UNCHALLENGED
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 133 onRequestSubmitted - http-outgoing-3 >> GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-3 >> User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-3 >> Host: apicloud.mob.com
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-3 >> Connection: Keep-Alive
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 136 onRequestSubmitted - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 >> "GET /v1/weather/ip?key=280890d5ab5c7&ip=0:0:0:0:0:0:0:1 HTTP/1.1[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 >> "User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 >> "Host: apicloud.mob.com[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 >> "[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 << "Server: nginx/1.8.0[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 << "Date: Wed, 31 Oct 2018 10:10:04 GMT[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 << "Content-Length: 42[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 << "Expires: 0[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 73 wire - http-outgoing-3 << "[\r][\n]"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.Wire 87 wire - http-outgoing-3 << "{"msg":"IP[0xe5][0x9c][0xb0][0xe5][0x9d][0x80][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","retCode":"20404"}"
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 122 onResponseReceived - http-outgoing-3 << HTTP/1.1 200 OK
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-3 << Server: nginx/1.8.0
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-3 << Date: Wed, 31 Oct 2018 10:10:04 GMT
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-3 << Content-Type: text/plain; charset=utf-8
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-3 << Content-Length: 42
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-3 << Connection: keep-alive
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.conn.LoggingManagedHttpClientConnection 125 onResponseReceived - http-outgoing-3 << Expires: 0
+[2018-10-31 18:10:03] DEBUG org.apache.http.impl.execchain.MainClientExec 285 execute - Connection can be kept alive indefinitely

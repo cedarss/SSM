@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+     
+    <!-- test shiro 1 创建SecurityManager对象 -->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+    	<property name="realm" ref="MyRealm" />
+    	
+    	<!-- session增删改查操作通过redis session dao来实现 -->
+    	<property name="sessionManager" ref="sessionManager" /> 
+    	
+    	<!-- 引入redis缓存 角色 权限数据 -->
+    	<property name="cacheManager" ref="redisCacheManager" />
+    	
+    	<!-- 重点:引入cookie管理器 管理自动动力 -->
+    	<property name="rememberMeManager" ref="cookieRememberMeManager" />
+    	
+    </bean>
+    
+    <!-- 自定义Realm -->
+    <bean id="MyRealm" class="com.xhkj.sso.shiro.CustomRealm">
+    	<property name="credentialsMatcher" ref="credentialsMatcher" />
+    </bean>
+    
+    <!-- 密码加密 -->
+    <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+    	<property name="hashAlgorithmName" value="md5" />
+    	<property name="hashIterations" value="1" />
+    </bean>
+    
+    <!-- 修改 org.apache.shiro.web.session.mgt.DefaultWebSessionManager 为自定义 CustomSessionManager -->
+    <bean class="com.xhkj.sso.shiro.CustomSessionManager" id="sessionManager">
+    	<property name="sessionDAO" ref="redisSessionDao" />
+    	<!-- 设置全局会话超时时间,默认30分钟(1800000) -->
+    	<property name="globalSessionTimeout" value="1800000" />
+    	<!-- 是否在会话过期后调用SessionDAO的delete方法删除会话 默认true -->
+		<property name="deleteInvalidSessions" value="false" />
+		<!-- 是否开启会话验证器任务 默认true -->
+		<property name="sessionValidationSchedulerEnabled" value="false"/>
+		<!-- 会话验证器调度时间 -->
+		<property name="sessionValidationInterval" value="1800000"/>
+		<property name="sessionFactory" ref="shiroSessionFactory"/>
+		<!-- 默认JSESSIONID，同tomcat/jetty在cookie中缓存标识相同，修改用于防止访问404页面时，容器生成的标识把shiro的覆盖掉 -->
+		<!-- <property name="sessionIdCookie">
+			<bean class="org.apache.shiro.web.servlet.SimpleCookie">
+				<constructor-arg name="name" value="SHRIOSESSIONID"/>
+			</bean>
+		</property>	 -->	
+		<property name="sessionListeners">
+			<list>
+				<bean class="com.xhkj.sso.shiro.ShiroSessionListener"/>
+			</list>
+		</property>
+
+
+    </bean> 
+    
+    <!-- redis缓存管理 -->
+	<bean class="com.xhkj.sso.shiro.RedisCacheManager" id="redisCacheManager"/>   
+	
+	
+	<!-- 自动登录相关 -->
+    <bean class="org.apache.shiro.web.mgt.CookieRememberMeManager" id="cookieRememberMeManager" >
+			<property name="cookie" ref="cookie" />
+    </bean>
+    
+    <bean class="org.apache.shiro.web.servlet.SimpleCookie" id="cookie">
+    
+    	<!-- 设置cookie名称 -->
+    	<constructor-arg  value="rememberMe" />
+    	
+    	<!-- cookie最大存活时间 -->
+		<property name="maxAge" value="20000" />
+    </bean>
+    
+    <bean class="com.xhkj.sso.shiro.RedisCache" id="redisCache" />
+    
+    <bean class="redis.clients.jedis.JedisPoolConfig" id="jedisPoolConfig" />
+    
+    <bean class="com.xhkj.sso.shiro.RedisSessionDao" id="redisSessionDao" />
+    
+    
+    <!-- shiro redis start -->
+   <bean id="shiroSessionFactory" class="com.xhkj.sso.shiro.ShiroSessionFactory" />
+    
+   
+</beans>

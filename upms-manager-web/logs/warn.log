@@ -1,0 +1,6 @@
+[2018-10-31 17:32:44] WARN  com.xhkj.common.utils.IPInfoUtil 97 getIpCity - null获取地理信息失败,ip=0:0:0:0:0:0:0:1
+[2018-10-31 17:32:56] WARN  com.xhkj.common.utils.IPInfoUtil 97 getIpCity - null获取地理信息失败,ip=0:0:0:0:0:0:0:1
+[2018-10-31 17:54:40] WARN  com.xhkj.common.utils.IPInfoUtil 97 getIpCity - null获取地理信息失败,ip=0:0:0:0:0:0:0:1
+[2018-10-31 18:07:27] WARN  com.xhkj.common.utils.IPInfoUtil 97 getIpCity - null获取地理信息失败,ip=0:0:0:0:0:0:0:1
+[2018-10-31 18:07:54] WARN  com.xhkj.common.utils.IPInfoUtil 97 getIpCity - null获取地理信息失败,ip=0:0:0:0:0:0:0:1
+[2018-10-31 18:10:03] WARN  com.xhkj.common.utils.IPInfoUtil 97 getIpCity - null获取地理信息失败,ip=0:0:0:0:0:0:0:1

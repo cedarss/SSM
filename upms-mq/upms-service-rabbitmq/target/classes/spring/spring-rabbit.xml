@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd  
+		http://www.springframework.org/schema/context   
+		http://www.springframework.org/schema/context/spring-context.xsd  
+		http://www.springframework.org/schema/rabbit 
+		http://www.springframework.org/schema/rabbit/spring-rabbit-1.6.xsd">
+
+
+
+
+	<!--配置connection-factory，指定连接rabbit server参数 -->
+	<rabbit:connection-factory id="rabbitConnectionFactory"
+		host="${rabbit.host}" port="${rabbit.port}" username="${rabbit.username}"
+		password="${rabbit.password}"  />
+		
+	<!--通过指定下面的admin信息，当前producer中的exchange和queue会在rabbitmq服务器上自动生成 -->
+	<rabbit:admin id="connectAdmin" connection-factory="rabbitConnectionFactory" />
+	
+	<!--start 定义消息队列 -->
+	<!-- 微信端消息通知 -->
+	<rabbit:queue name="upms-user-email-queues" durable="true"
+		auto-delete="false" exclusive="false" declared-by="connectAdmin" />
+
+	<!-- 声明交换器与一个或多个普通消息队列的绑定 -->
+	<rabbit:direct-exchange name="upms-user-email-exchange"
+		durable="true" auto-delete="false" declared-by="connectAdmin">
+		<rabbit:bindings>
+			<!-- 微信订单提醒队列绑定交换器 -->
+			<rabbit:binding queue="upms-user-email-queues" key="emailSendRegisterKey"></rabbit:binding>
+		</rabbit:bindings>
+	</rabbit:direct-exchange>	
+	
+	<!-- 创建普通消息模板对象-rabbitTemplate -->
+	<rabbit:template id="rabbitTemplate"
+		connection-factory="rabbitConnectionFactory" exchange="exchange-upms-user-email" />	
+	
+	
+	<!-- 普通消息接收者 -->
+	 <bean id="messageConsumer" class="com.xhkj.upms.mq.consumer.MessageConsumer"></bean>
+	 
+	  <!-- queue litener 观察 监听模式 当有消息到达时会通知监听在对应的队列上的监听对象 -->
+    <rabbit:listener-container
+        connection-factory="rabbitConnectionFactory"  acknowledge="manual">
+        <rabbit:listener queues="upms-user-email-queues" ref="messageConsumer" method="onMessage"/>
+    </rabbit:listener-container>
+		
+</beans>

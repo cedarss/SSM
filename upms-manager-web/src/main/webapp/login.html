@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+</head>
+<body>
+	<div style="width: 300px;height: 200px;border: 2px solid red;top: 50%;left: 50%; position: absolute; transform: translate(-50%, -50%);" align="center">
+		  <form  action="/user/login" method="post">
+		  
+		  <div style="margin-top: 50px;">
+		  	<label for="accid">账号:</label>
+		  	<input type="text" name="account" id="account" placeholder="请输入账号"/>
+		  </div>
+		  <div style="margin-top: 10px;">
+		  	<label for="accpwd">密码:</label>
+		  	<input type="password" name="password" id="password" placeholder="请输入密码" />
+		  </div>
+		  <div style="margin-top: 5px;">
+		  	<input type="checkbox" name="rememberMe" /> 记住我
+		  </div>
+		  <div style="margin-top: 5px;">
+		  	<input type="submit" value="登录"/>
+		  	&nbsp;&nbsp;&nbsp;
+		  	<a href="register.html">去注册</a>
+		  </div>
+		  	
+		  </form>
+	  </div>
+</body>
+</html>
